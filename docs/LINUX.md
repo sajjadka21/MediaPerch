@@ -39,6 +39,12 @@ tar -xzf MediaPerch-0.9.0-linux-x86_64.tar.gz
 ./MediaPerch-0.9.0-linux-x86_64/MediaPerch
 ```
 
+For the portable packages on a minimal Ubuntu installation, install the desktop libraries first (DEB/RPM installation resolves its declared dependencies automatically):
+
+```sh
+sudo apt install libgl1 libegl1 libopengl0 libxcb-cursor0 libxcb-icccm4 libxcb-keysyms1 libxcb-image0 libxcb-render-util0 libxcb-xinerama0 libxkbcommon-x11-0 libdbus-1-3 xdg-utils
+```
+
 Use your normal desktop session, not `sudo`, to run the app. A graphical desktop is required. On X11, ensure the system's Qt/XCB/OpenGL dependencies are installed (including `libxcb-cursor0` on Ubuntu). `ffmpeg` is optional for video probing/frame artwork. Playback uses the desktop's associated media player.
 
 ## Behaviour and differences from Windows
