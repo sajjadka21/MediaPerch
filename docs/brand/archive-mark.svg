@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Archive arch — proposed brand symbol</title>
+  <defs>
+    <mask id="spine-cuts" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512">
+      <rect width="512" height="512" fill="white"/>
+      <g fill="none" stroke="black" stroke-width="8">
+        <path d="M76 184 Q120 174 164 184 M76 204 Q120 194 164 204"/>
+        <path d="M204 122 Q256 108 308 122 M204 144 Q256 130 308 144"/>
+        <path d="M348 184 Q392 174 436 184 M348 204 Q392 194 436 204"/>
+      </g>
+    </mask>
+  </defs>
+  <g fill="#CA8A45" mask="url(#spine-cuts)">
+    <path d="M64 160 C64 122 176 122 176 160 V432 H84 Q64 432 64 412 Z"/>
+    <path d="M188 98 C188 50 324 50 324 98 V316 C313 262 285 228 256 228 C227 228 199 262 188 316 Z"/>
+    <path d="M336 160 C336 122 448 122 448 160 V412 Q448 432 428 432 H336 Z"/>
+  </g>
+</svg>
