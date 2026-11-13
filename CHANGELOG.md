@@ -12,3 +12,5 @@ First public release of **MediaPerch**. Earlier version numbers belonged to inte
 - MediaPerch desktop and Start menu shortcuts with an explicit dedicated icon.
 - Resumable verified updates and a frozen-app startup check before packaging.
 - English and Persian product documentation with original demo-library screenshots.
+- Linux x86_64 packages: AppImage, Debian, RPM and portable tar.gz (glibc 2.39+).
+- Native Linux scanning, safe file operations, desktop integration and secure desktop-keyring storage.

@@ -2,7 +2,7 @@
 
 # MediaPerch
 
-**خانه‌ای برای آرشیو شخصی شما — روی ویندوز، با رابط فارسی و انگلیسی.**
+**خانه‌ای برای آرشیو شخصی شما — روی ویندوز و لینوکس، با رابط فارسی و انگلیسی.**
 
 [دانلود نسخهٔ ویندوز](https://github.com/sajjadka21/MediaPerch/releases/latest) · [English](README.md) · [گزارش مشکل](https://github.com/sajjadka21/MediaPerch/issues)
 
@@ -15,6 +15,21 @@ MediaPerch پوشه‌های فیلم، سریال، انیمه و فایل‌ه
 ## نصب
 
 اولین نسخهٔ عمومی **0.9.0** است. شماره‌های قبلی متعلق به تست‌های داخلی بودند.
+
+### لینوکس
+
+چهار قالب برای **x86_64** ارائه شده است:
+
+- [AppImage قابل‌حمل](https://github.com/sajjadka21/MediaPerch/releases/download/v0.9.0/MediaPerch-0.9.0-linux-x86_64.AppImage): اجازهٔ اجرا بدهید و بازش کنید.
+- [بستهٔ deb](https://github.com/sajjadka21/MediaPerch/releases/download/v0.9.0/MediaPerch-0.9.0-linux-x86_64.deb): برای اوبونتو، دبیان و مینت.
+- [بستهٔ rpm](https://github.com/sajjadka21/MediaPerch/releases/download/v0.9.0/MediaPerch-0.9.0-linux-x86_64.rpm): برای سیستم‌های سازگار با فدورا.
+- [بستهٔ tar.gz](https://github.com/sajjadka21/MediaPerch/releases/download/v0.9.0/MediaPerch-0.9.0-linux-x86_64.tar.gz): استخراج کنید و فایل `MediaPerch` را اجرا کنید.
+
+این خروجی‌ها **glibc 2.39 یا جدیدتر** می‌خواهند؛ مانند Ubuntu 24.04، Mint 22، Debian 13 یا Fedora 40 و جدیدتر. برای ARM یا توزیع‌های قدیمی‌تر نیستند. [راهنمای کامل نصب لینوکس](docs/LINUX.md) شامل فرمان‌های نصب، بررسی checksum و تفاوت‌های نسخه‌هاست.
+
+پایتون همراه بسته است. کتابخانهٔ لینوکس معمولاً در `~/.local/share/mediaperch` ذخیره می‌شود. قابلیت آیکن پوشهٔ Explorer فقط برای ویندوز است و در لینوکس نمایش داده نمی‌شود؛ به‌روزرسانی لینوکس از طریق بستهٔ جدید یا مدیر بسته انجام می‌شود.
+
+### ویندوز
 
 1. فایل [MediaPerch-0.9.0-setup.exe](https://github.com/sajjadka21/MediaPerch/releases/download/v0.9.0/MediaPerch-0.9.0-setup.exe) را دانلود و اجرا کنید. نیازی به نصب پایتون ندارید.
 2. گزینهٔ ساخت میان‌بر دسکتاپ با آیکن جدید در نصب‌کننده وجود دارد.
